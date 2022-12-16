@@ -1,0 +1,146 @@
+/*common start*/
+body{
+	margin:0;
+	padding:0;
+
+	font-family:Montserrat; sans-serif;
+	font-size: 16px;
+	font-weight:400 ;
+	color: #3d2514;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 25px;
+
+}
+.container{
+	margin: 0 auto;
+	width: 90%;
+	
+}
+.logo{
+	width:20%;
+	float: left;
+	
+}
+.logo a{}
+.logo a img{
+     width:100% ;
+}
+.menu{
+	width: 60%;
+	float: right;
+	
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: 'Bebas Neue'cursive; 
+	font-size: 20px;
+	color:#3d2514 ;
+	text-decoration: none;
+	padding: 0 25px;
+	display: inline-block;
+	transition: .33s;
+
+}
+.menu ul li:last-child a{
+	padding: 0;
+}
+.menu ul li a:hover{
+	color: #bf2222;
+	text-decoration: underline;
+
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image:url(../images/banner.png) ;
+	background-repeat: no repeat;
+	background-size: cover;
+	background-position: center;
+	padding:30px 0 70px ;
+}
+.btext{
+	font-family: Alfa Slab One;cursive;
+	font-weight: 700;
+	width: 40%;
+	float:left;
+	margin-top: 20%px;
+
+}
+.btext p{
+	font-family: 'Bebas Neue'cursive;
+	font-size: 23px;
+	border: 3px dashed #3d2514;
+	padding: 5px 10px;
+	display: inline-block;
+	margin: 0;
+	line-height: 30px;
+}
+.btext h1{
+	font-family: 'Alfa Slab One' cursive;
+	font-size: 114px;
+	font-weight: 400;
+	text-transform: uooercase;
+	margin: 30px o 20px;
+	line-height: 80px;
+}
+.btext h2{
+	font-family:'Alfa Slab One' cursive;
+    font-size: 56px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 55px;
+}
+.bimg{
+	width: 55%;
+	border: 1px solid red;
+	float: right;
+}
+.bimg img{
+	width: 100%;
+}
+.bwrapper{
+	width: 170px;
+	height: 170px;
+	background-color: #bf2222;
+	border-radius:50% ;
+	/*padding:10px;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.btag{
+	display: flex;
+	flex-direction:column ;
+	align-items: center;
+	justify-content: center;
+	width: 130px;
+	height: 130px;
+	border: 3px dashed white;
+	border-radius: 50%;
+	font-family: Bebas Neue; cursive;
+	color: white;
+	line-height: 40px;
+
+}
+.b3{
+	font-size: 55px;
+}
+.b1{
+	font-size: 25px;
+}
+.b2{
+	font-size: 40px;
+	letter-spacing: 5px;
+}
+/*banner end*/

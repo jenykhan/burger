@@ -1,0 +1,9 @@
+color:
+    meroon:#3d2514
+    white-
+    red-#bf2222 
+font family:
+  bebas neue regular
+  bebas neue bold
+  alfa slab regular
+  montserrat regular
